@@ -1,0 +1,25 @@
+label credits_ka_bad
+
+	creditsmode true
+
+	scene color black
+	play music satellite_dishes forceloop false
+	pause 2
+	scene bg house_mc_night2 with dissolve 10 true skip
+	overlay_color #000000 opacity 0.6 fade 10 skip
+	rollcredits 208
+	
+	stop music fadeout 7
+	
+	pause 7
+	
+	overlay_img backersintro fade 4
+	pause 7
+	overlay_img remove fade 4
+	
+	pause 4
+	
+	rollbackers 6000
+	{
+	play music playlist backers_bad
+	}	

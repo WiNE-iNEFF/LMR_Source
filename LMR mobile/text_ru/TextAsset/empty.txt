@@ -1,0 +1,6 @@
+mode nvl
+var $i = 1
+
+label start
+$"{$i++}"
+goto start

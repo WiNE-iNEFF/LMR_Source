@@ -1,0 +1,92 @@
+label credits_hi_good
+	creditsmode true
+
+	scene color black
+	play music pancakes forceloop false
+	scene cg cg_himitsu_2
+    show cg cg_himitsu_2 normal legs2
+	with dissolve 5 true
+	
+	rollcredits 175
+	{
+	pause 8
+	#0:13
+	show cg legs1
+	pause 3
+	#0:16
+	show cg smile head3right
+	overlay_img hi_good_1 fade 3
+	#0:19
+	pause 7
+	overlay_img remove fade 3
+	pause 2
+	#0:31
+	show cg legs2
+	overlay_img hi_good_2 fade 3
+	#0:36
+	show cg happy head1center hands2
+	pause 7
+	#0:43
+	overlay_img remove fade 2
+	show cg normal
+	pause 13
+	#0:58
+	show cg sad head2left hands1
+	overlay_img hi_good_3 fade 3
+	show cg legs1
+	#0:1:01
+	pause 7
+	overlay_img remove fade 3
+	#1:11
+	show cg head3right
+	pause 12
+	#1:24
+	show cg normal legs2
+	overlay_img hi_good_4 fade 4
+	#1:28
+	show cg smile head1center
+	pause 12
+	#1:39
+	overlay_img remove fade 3
+	overlay_img hi_good_5 fade 3
+	show cg shy hands2
+	#1:45
+	pause 12
+	#1:57
+	overlay_img remove fade 3
+	overlay_img hi_good_6 fade 3
+	show cg happy hands1
+	#2:03
+	pause 12
+	#2:15
+	overlay_img remove fade 3
+	show cg normal head3right
+	#2:15
+	pause 17
+	#2:31
+	show cg smile head1center
+	pause 5
+	#2:36
+	scene color black with dissolve 24 true
+	}
+	stop music fadeout 3
+	
+	pause 5
+	
+	scene color black
+	
+	overlay_img backersintro fade 4
+	pause 7
+	overlay_img remove fade 4
+	
+	pause 4
+	
+	rollbackers 6000
+	{
+	scene bg himi_day_inside with dissolve 10 true skip
+	play music playlist backers
+	pause 1350
+	scene bg himi_sunset_inside with dissolve 10 true skip
+	pause 1350
+	scene bg himi_night_inside with dissolve 10 true skip
+	}

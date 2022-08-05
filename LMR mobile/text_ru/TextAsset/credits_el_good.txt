@@ -1,0 +1,23 @@
+label credits_el_good
+
+	creditsmode true
+
+	scene color black
+	
+	overlay_img backersintro fade 4
+	pause 7
+	overlay_img remove fade 4
+	
+	pause 4
+	
+	rollbackers 6000
+	{
+	scene bg eli_repbase with dissolve 10 true skip
+	play music playlist backers
+	pause 1000
+	scene bg club_outside_day with dissolve 10 true skip
+	pause 1000
+	scene bg club_outside_sunset with dissolve 10 true skip
+	pause 1000
+	scene bg club_outside_night with dissolve 10 true skip
+	}

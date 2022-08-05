@@ -1,0 +1,27 @@
+label credits_el_bad
+
+	creditsmode true
+
+	scene color black
+	play music you_know_this_is_the_end forceloop false
+	
+	rollcredits 189
+	{
+	scene bg eli_house_night with dissolve 10 true skip
+	overlay_color #000000 fade 10 skip
+	}
+	
+	stop music fadeout 5
+	
+	pause 5
+	
+	overlay_img backersintro fade 4
+	pause 7
+	overlay_img remove fade 4
+	
+	pause 4
+	
+	rollbackers 6000
+	{
+	play music playlist backers_bad
+	}

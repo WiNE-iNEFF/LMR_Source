@@ -1,0 +1,17 @@
+label credits_ca_bad_3
+	creditsmode true
+
+	scene color black
+	
+	overlay_img backersintro fade 4
+	pause 7
+	overlay_img remove fade 4
+	
+	pause 4
+	
+	rollbackers 6000
+	{
+	scene bg garden_night with dissolve 10 true skip
+	play music playlist backers_bad
+	overlay_color #000000 fade 10
+	}
