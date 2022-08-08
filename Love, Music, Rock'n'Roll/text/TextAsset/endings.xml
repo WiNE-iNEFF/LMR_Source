@@ -1,0 +1,37 @@
+<translation>
+	
+	<string name="placeholder">???</string>
+
+    <string name="himitsu_bad">Himitsu, bad</string>
+    <string name="himitsu_bad2">Himitsu, bad №2</string>
+    <string name="himitsu_bad3">Himitsu, bad №3</string>
+    <string name="himitsu_good">Himitsu, good</string>
+    <string name="catherine_bad">Catherine, bad</string>
+    <string name="catherine_bad2">Catherine, bad №2</string>
+    <string name="catherine_bad3">Catherine, bad №3</string>
+    <string name="catherine_good">Catherine, good</string>
+    <string name="ellie_bad">Ellie, bad</string>
+    <string name="ellie_bad2">Ellie, bad №2</string>
+    <string name="ellie_good">Ellie, good</string>
+    <string name="kagome_bad">Kagome, bad</string>
+    <string name="kagome_bad2">Kagome, bad №2</string>
+    <string name="kagome_good">Kagome, good</string>
+
+    <lang name="ru">
+        <string name="himitsu_bad">Химицу, плохая</string>
+        <string name="himitsu_bad2">Химицу, плохая №2</string>
+        <string name="himitsu_bad3">Химицу, плохая №3</string>
+        <string name="himitsu_good">Химицу, хорошая</string>
+        <string name="catherine_bad">Кэтрин, плохая</string>
+        <string name="catherine_bad2">Кэтрин, плохая №2</string>
+        <string name="catherine_bad3">Кэтрин, плохая №3</string>
+        <string name="catherine_good">Кэтрин, хорошая</string>
+        <string name="ellie_bad">Эли, плохая</string>
+        <string name="ellie_bad2">Эли, плохая №2</string>
+        <string name="ellie_good">Эли, хорошая</string>
+        <string name="kagome_bad">Кагомэ, плохая</string>
+        <string name="kagome_bad2">Кагомэ, плохая №2</string>
+        <string name="kagome_good">Кагомэ, хорошая</string>
+    </lang>
+
+</translation>
